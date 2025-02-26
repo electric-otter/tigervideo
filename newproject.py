@@ -9,6 +9,6 @@ def create():
   if not os.path.exists(folder_name):
     os.makedirs(folder_name)
   os.chdir(path)
-root.title("TigerVideo - Start an fresh project.")
+newproject.title("TigerVideo - Start an fresh project.")
 turn_off = tk.Button(root, text="Start now", command=create)
 newproject.mainloop()
