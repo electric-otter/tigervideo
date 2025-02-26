@@ -1,3 +1,0 @@
-# Welcome
-
-TigerVideo projects folder, be careful here...
