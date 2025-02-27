@@ -1,6 +1,6 @@
-import tkinter
+import tkinter as tk
 import os
-newproject = tkinter.Tk()
+newproject = tk.Tk()
 folder_name = "project"
 file_name = "myproject.tvid"
 file_path = os.path.join(folder_name, file_name)
@@ -10,5 +10,6 @@ def create():
     os.makedirs(folder_name)
   os.chdir(path)
 newproject.title("TigerVideo - Start an fresh project.")
-turn_off = tk.Button(root, text="Start now", command=create)
+createbutton = tk.Button(newproject, text="Start now", command=create)
+createbutton()
 newproject.mainloop()
